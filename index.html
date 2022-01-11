@@ -1,1 +1,518 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<title>Vaibhav Murali | Profile</title>
+<link rel="icon" href="Icon.png" type="image/png">
+<marquee id='scroll_news' style="font-family:Book Antiqua; color: gold"><div onMouseOver="document.getElementById('scroll_news').stop();" onMouseOut="document.getElementById('scroll_news').start();"><b><i>A passionate engineer with ability to work as part of a team to develop and implement systems, as well as troubleshoot and solve complex technical problems. </b></i></div></marquee>
+<p><p><p><p><p><p></p></p></p></p></p></p>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {margin:0;height:1800px;}
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  right: 0%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.2s ease;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.instagram {
+  background: #c32aa3;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.github {
+  background: #333;
+  color: white;
+}
+
+.content {
+  margin-left: 0px;
+  font-size: 20px;
+}
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+.flip-card {
+  background-color: transparent;
+  width: 330px;
+  height: 330px;
+  perspective: 1000px;
+  display: inline-block;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: justify;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #ffffff;
+  color: black;
+}
+
+.flip-card-back {
+  background-color:#900;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+table {
+}
+
+td {
+  text-align: left;
+  padding:10px;
+  border: 1px solid #dddddd;
+}
+ 
+.btn {
+  background-color: DodgerBlue;
+  float:center;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: RoyalBlue;
+}  
+  
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  max-height: 6000px;
+  margin: 30px;
+  text-align: justify;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.imgcenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.button {
+  background-color: DodgerBlue;
+  float:center;
+  border: none;
+  color: white;
+  padding: 12px 15px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+</style>
+
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <span>Vaibhav Murali</span>
+</header>
+  
+<body>
+
+  <div class="icon-bar"> 
+  <a href="https://www.linkedin.com/in/vaibhavmurali/" class="linkedin" target= _blank><i class="fa fa-linkedin"></i></a>
+  <a href="https://github.com/vaibhavmurali" class="github" target= _blank><i class="fa fa-github"></i></a> 
+</div>
+  
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;background-color:#900 !important;font-weight:bold;" id="mySidebar">
+  <div class="w3-container" line-height="normal">
+  <h1 class="w3-padding-64"><b>Vaibhav<br>Murali</b></h1>
+  </div>
+  <div class="w3-bar-block" line-height="normal">
+    <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Me</a> 
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Education</a> 
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Experience</a> 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Projects</a> 
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Skills</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+    <p><p><p><p><p><p><p><p><p><p><p><p><p><p></p></p></p></p></p></p></p></p></p></p></p></p></p></p>
+    <img src="USC.gif" style="width:250px;height:250px;">
+  </div>
+</nav>
+                                                                                                                      
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+<div class="w3-container" style="margin-top:80px" id="home">
+<h1 class="w3-xxxlarge w3-text-red"><font color="#900"><b>About Me</b></font></h1>
+<hr style="width:50px;border:5px" class="w3-round">   
+<p align="justify">Hey! I am an alumni from University of Southern California, Los Angeles - California, with Master's in 
+Medical Device and Diagnostic Engineering. I am interested in the field of Instrumentation and Electronics Engineering. I have had a great deal of laboratory experience in instrumentation, both indoors as 
+well as on-field. I am keenly willing to contribute my best to work on the latest technologies in the field of electronics that will lead to the betterment of the society.I obtained my bachelor's degree in Biomedical Engineering Engineering from SSN College of Engineering, Anna University - Chennai, India in 
+June 2017. I have worked on several projects ranging from Laboratory Model of Low Cost Dialysis Machine to building an artifical neuron 
+which has provided me with a unique learning experience. Currently, I am working as an Electronics Engineer at Now Diagnostics, Los Angeles - California. I interned at Philips Innovation - 
+Banglore, India during Summer'16 where I worked on CT, MRI, Ultrasound and ECG Machines. Also I had an opportunity to intern at 
+Apollo Hospitals and Sooriya Hospital - Chennai, India during my undergraduation. Apart from these experiences, I have worked on 
+several projects throughout my graduate and undergraduate career. Please do checkout my resume for more details!</p>                                                  
+<a href="CV_VAIBHAV.pdf" target="_blank"><button class="btn"><i class="fa fa-download"></i> Download Resume</button></a>
+</div>                                                             
+ 
+<div class="w3-container" id="showcase" style="margin-top:75px">
+  <h1 class="w3-xxxlarge w3-text-red"><font color="#900"><b>Education</font></b></h1>
+  <hr style="width:50px;border:5px" class="w3-round">                                  
+  <table>
+  <tr>
+    <td bgcolor="#900"><font color="white" size="2"><center><b>University of Southern California</b></center></font></td>
+    <td>
+    <li><font size="4">Degree: Master of Science (M.S.), Medical Device and Diagnostic Engineering</font></li>
+    <li><font size="4">CGPA: 3.6/4.0</b></font></li>
+    <li><font size="4">Year: August 2017 - May 2019</font></li>
+    <li><font size="4">Location/Country: Los Angeles, United States</font></li>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#900"><font color="white" size="2"><center><b>SSN College of Engineering, Anna University</b></center></font></td>
+    <td>
+    <li><font size="4">Degree: Bachelor of Engineering (B.E.), Biomedical Engineering</font></li>
+    <li><font size="4">CGPA: 8.01/10.00</font></li>
+    <li><font size="4">Year: August 2013 - May 2017</font></li>
+    <li><font size="4">Location/Country: Chennai, India</font></li>
+    </td>
+  </tr>
+</table>
+  </div>
+  
+  <div class="w3-container" id="services" style="margin-top:75px">
+  <h1 class="w3-xxxlarge w3-text-red"><font color="#900"><b>Experience</b></font></h1>   
+  <hr style="width:50px;border:5px" class="w3-round">                                   
+  
+  <div>                     
+ <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="NOWDX.png" style="width:330px;height:330px;"> 
+    </div>
+    <div class="flip-card-back">
+   <p></p>
+   <font size="3"><b>Company:</b><br>NOWDx Instrument Division (NID)</font><br>
+   <p></p>
+   <font size="3"><b>Location:</b><br>Los Angeles, California, United States</font><br>    
+   <p></p>
+   <font size="3"><b>Role:</b><br>Electronics Engineer</font><br>  
+   <p></p>
+   <font size="3"><b>Job Description:</b><br>•Design of PCBs (Rigid & Flex, Multilayer PCBs) </b><br>•Verification and validation 
+    of PCBs using Python & Bash programming </b><br>
+   </font>                           
+   </div>
+  </div>
+</div> 
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="Philips.png" style="width:330px;height:330px;"> 
+    </div>
+     <div class="flip-card-back">
+   <p></p>
+   <font size="3"><b>Company:</b><br>Philips Innovation Campus</font><br>
+   <p></p>
+   <font size="3"><b>Location:</b><br>Chennai, India</font><br>    
+   <p></p>
+   <font size="3"><b>Role:</b><br>Biomedical Engineer Intern</font><br>  
+   <p></p>
+   <font size="3"><b>Job Description:</b><br>Inspected, calibrated & tested medical equipment along with analysis and documentation of test
+    results.</b><br>
+   </font>                           
+   </div>
+  </div>
+</div>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="Apollo.png" style="width:330px;height:330px;"> 
+    </div>
+                                                             
+   <div class="flip-card-back">
+   <p></p>
+   <font size="3"><b>Company:</b><br>Apollo Hospitals</font><br>
+   <p></p>
+   <font size="3"><b>Location:</b><br>Chennai, India</font><br>    
+   <p></p>
+   <font size="3"><b>Role:</b><br>Biomedical Engineer Intern</font><br>  
+   <p></p>
+   <font size="3"><b>Job Description:</b><br>Evaluated safety, efficiency, and effectiveness of biomedical equipment. Also, performed 
+   validation of medical equipment through Planned Preventive Maintenance (PPM)</font>                           
+    </div>
+  </div>
+</div>   
+                              
+</div>                             
+</div>
+                               
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><font color="#900"><b>Projects</b></font></h1>
+    <hr style="width:50px;border:5px" class="w3-round">     
+    <table class="compact" border="0" align="center" cellspacing="0" cellpadding="20">
+  		
+	        <tr>
+  			<td width="33%" align="center">
+
+  			     <img src='Dialysis.jpeg' style="width:238px;height:140px;">
+
+  			</td>
+  			<td valign="top" width="67%">
+  				<p>
+				<h5><font color="#900"><b>Laboratory Model of Low Cost Dialysis Machine</b></font></h5></p>
+				<b>Vaibhav Murali, Gopi Chandran, Surya Prakash &nbsp;|&nbsp; Spring 2017</b>
+  					<p align="justify">
+  						We engineered a cost effective machine that performs basic operations such as monitoring pressure, temperature and detecting air bubbles present inside blood drawn from patient. 
+  					</p>
+	    <a href="thesis_full.pdf" target= _blank><button class="btn"><i class="fa fa-download"></i>Report</button></a>
+					
+	    <a href="https://youtu.be/lMehuQO2PqY" target= _blank><button class="btn"><i class="fa fa-download"></i>Video 1</button></a>
+	    
+	    <a href="https://youtu.be/lzvbQXVOrNc" target= _blank><button class="btn"><i class="fa fa-download"></i>Video 2</button></a>
+
+	    <a href="https://youtu.be/Eh6AA_WfIKk" target= _blank><button class="btn"><i class="fa fa-download"></i>Video 3</button></a>
+			</td></tr>		
+  		<tr>
+    <td width="33%" align="center">
+
+         <img src='Grodins.png' style="width:238px;height:140px;">
+			</td>    
+    <td valign="top" width="67%">
+      <p>
+	    <h5><font color="#900"><b>Simulation of Grodin's Model</b></font></h5></p>
+<b>Vaibhav Murali &nbsp;|&nbsp; Fall 2017</b>
+        <p align="justify">
+          Simulated Grodins Model in MATLAB. Modified controller equation to predict periodic breathing in normal and heart failure.
+ </p>
+        <a href="projectreport.pdf" target= _blank><button class="btn"><i class="fa fa-download"></i>Report</button></a> 
+			</td></tr> 
+	    <tr>
+    <td width="33%" align="center">
+
+         <img src='Cardiac.png' style="width:238px;height:140px;">
+
+    </td>
+    <td valign="top" width="67%">
+      <p>
+        <h5><font color="#900"><b>Implementation of radial artery to aortic transfer function</b></font></h5></p>
+<b>Vaibhav Murali &nbsp;|&nbsp; Fall 2017</b>
+        <p align="justify">
+         Constructed a linear circuit to calculate transfer function. Observed aortic flow during normal and abnormal heart conditions in MATLAB.
+ </p>
+        <a href="Extracredit.pdf" target= _blank><button class="btn"><i class="fa fa-download"></i>Report</button></a> 	
+		    </td></tr>
+      		<tr>
+  			<td width="33%" align="center">
+
+  			     <img src='EEG.png' style="width:238px;height:140px;">
+
+  			</td>
+  			<td valign="top" width="67%">
+  				<p>
+  					<h5><font color="#900"><b>Transcutaneous electrical nerve stimulation using EEG</b></font></h5></p>
+<b>Vaibhav Murali  &nbsp;|&nbsp; Fall 2018</b>
+  					<p align="justify">
+                Research project aimed at treating pain automatically based on EEG pattern. Involved designing a cap with electrodes embedded on it to extract brain waves along with appropriate signal processing to get a meaningful signal to treat pain
+				</p>
+     <a href="VaibhavMurali_FeasibilityReport.pdf" target= _blank><button class="btn"><i class="fa fa-download"></i>Report</button></a>
+			</td></tr>
+  <tr>
+      <td width="33%" align="center">
+
+           <img src='neuron12final.png' style="width:238px;height:140px;">
+
+      </td>
+      <td valign="top" width="67%">
+        <p>
+          <h5><font color="#900"><b>Design of Artificial Neuron</b></font></h5></p>
+<b>Vaibhav Murali &nbsp;|&nbsp; Fall 2018</b>
+          <p align="justify">
+            Implemented Mealy Machine circuit using Cadence Virtuoso. It involved flipflops & compound gates to replicate the firing of neurons. </p>
+          <a href="MuraliLab3.pdf" target= _blank><button class="btn"><i class="fa fa-download"></i>Report</button></a>
+	  </td></tr>
+    <tr>
+    <td width="33%" align="center">
+
+         <img src='Ultrasound.png' style="width:238px;height:140px;">
+
+    </td>
+    <td valign="top" width="67%">
+      <p>
+        <h5><font color="#900"><b>Design of Ultrasound Airflow Transducer</b></font></h5></p>
+	<b>Vaibhav Murali &nbsp;|&nbsp; Spring 2018</b>
+        <p align="justify">
+          Developed an ultrasound transducer model in LT SPICE and simulated the same. This model shows us the linear relationship of volume over time the for three flow rates.
+ </p>
+        <a href="Q1.pdf" target= _blank><button class="btn"><i class="fa fa-download"></i>Report</button></a> 
+      </td></tr>
+  <tr>
+  <td width="33%" align="center">
+
+       <img src='Oximeter.png' style="width:238px;height:140px;">
+
+  </td>
+  <td valign="top" width="67%">
+    <p>
+     <h5><font color="#900"><b>Design of Brain Tissue Oximeter</b></font></h5></p>
+	  <b>Vaibhav Murali &nbsp;|&nbsp; Spring 2018</b>
+        <p align="justify">
+          Developed a brain tissue oximeter using 555 timers in LT SPICE. Also generated diode current driver circuit for constant current during activation of timer. The model was then simulated using LT SPICE.
+ </p>
+        <a href="Q2.pdf" target= _blank><button class="btn"><i class="fa fa-download"></i>Report</button></a> 
+</td></tr>
+	<tr>
+    <td width="33%" align="center">
+
+         <img src='Cast_Arm.jpg' style="width:238px;height:140px;">
+
+    </td>
+    <td valign="top" width="67%">
+      <p>
+        <h5><font color="#900"><b>Cast Simulator</b></font></h5></p>
+<b>Vaibhav Murali &nbsp;|&nbsp; Spring 2019</b>
+        <p align="justify">
+          Worked on a cast simulator which helps surgeons to practice casting an arm. The device gives real-time feedback of temperature and pressure inside the arm as it is being casted so that it helps the surgeons to improve casting in order to avoid discomforts for patients. This project is a part of my directed research and was done in collaboration with Children's Hospital Los Angeles.
+ </p>
+	    </td></tr>
+	  </table>
+  </div>
+  
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b><font color="#900">Skills</font></b></h1>
+    <hr style="width:50px;border:5px" class="w3-round">                                   
+  </div>
+ 
+    <div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Languages</li>
+        <li class="w3-padding-16">C</li>
+        <li class="w3-padding-16">C++</li>
+        <li class="w3-padding-16">Bash Programming</li>
+        <li class="w3-padding-16">Python</li>
+      </ul>
+    </div>
+        
+    <div class="w3-half">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-red w3-xlarge w3-padding-32">Software</li>
+        <li class="w3-padding-16">Arduino IDE</li>
+        <li class="w3-padding-16">Atmel Studio</li>
+        <li class="w3-padding-16">Cadence Virtuoso</li>
+        <li class="w3-padding-16">MATLAB</li>
+        <li class="w3-padding-16">LABVIEW</li>
+        <li class="w3-padding-16">LT-Spice</li>
+        <li class="w3-padding-16">Eagle</li>
+    </div>
+  
+  <div class="w3-row-padding">
+    <div class="w3-half w3-margin-bottom">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Hardware</li>
+        <li class="w3-padding-16">Oscilloscope</li>
+        <li class="w3-padding-16">Siganl Generator</li>
+        <li class="w3-padding-16">Soldering (Through-Hole & SMD)</li>
+        <li class="w3-padding-16">ADC & DAC</li>
+        <li class="w3-padding-16">DMM</li>
+        <li class="w3-padding-16">Electrical Safety Analyzer</li>
+      </ul>
+    </div>
+        
+    <div class="w3-half">
+      <ul class="w3-ul w3-light-grey w3-center">
+        <li class="w3-red w3-xlarge w3-padding-32">Platform</li>
+        <li class="w3-padding-16">Arduin</li>
+        <li class="w3-padding-16">Intel 8051</li>
+        <li class="w3-padding-16">Cadence Allegro</li>
+        <li class="w3-padding-16">PIC</li>
+        <li class="w3-padding-16">Raspberry Pi</li>
+        <li class="w3-padding-16">TI MSP 430</li>
+        <li class="w3-padding-16">Solidworks</li>
+        <li class="w3-padding-16">BioRadio</li>
+        </ul>
+    </div>  
+  </div>
+                                 
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><font color="#900"><b>Contact</b></font></h1>
+    <hr style="width:50px;border:5px" class="w3-round">                                  
+    <div class="card">
+  <img src="Vaibhav.jpg" style="height:95%;width:50%;border-radius: 8px;" class="imgcenter">                                               
+  <h1><center>Vaibhav Murali</center></h1>
+  <p class="title"><center>MS in Medical Device and Diagnostic Engineering</center></p>
+  <p><font size="2"><center>Email: murali.vaibhav95@gmail.com</font></center></p>
+  <p><font size="2"><center>Phone: +1 917-519-1685</font></center></p>
+  <p><font size="2"><center>Address: 1163 1/2 W 24th Street, Los Angeles, CA 90007</font></center></p>
+  </div>
+
+<!-- End page content -->
+</div>
+</div>
+                                                    
+</body>
+</html>
